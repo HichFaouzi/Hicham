@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #616161;
+}
+
+#menu {
+  background-color: white;
+}
+#menu>ul>li{
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+}
+#menu>ul>li>a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#menu>ul {
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+#fotos { 
+  text-align: center;
+  height: 100%;
+}
+
+#fotos>img {
+  margin: 10px;
+}
+
+#titel {
+  background-color: #f44336;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-weight: 50;
+  padding-left: 10px;
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+}

@@ -1,0 +1,29 @@
+#menu>ul>li {
+  display: inline;
+  margin-right: 100px;
+}
+
+#menu>ul {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+
+#menu>ul>li>a {
+  text-decoration: none;
+  color: white;
+  padding:10px;
+}
+
+#menu {
+  background-color: grey;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+#menu>ul>li>a:hover {
+  background-color: darkgray;
+  padding: 50px;
+}

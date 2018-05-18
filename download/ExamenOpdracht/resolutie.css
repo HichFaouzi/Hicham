@@ -1,0 +1,13 @@
+#resolutie {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "foto tekst";
+}
+
+#resolutie-tekst {
+  grid-area: tekst;
+}
+
+#resolutie-img {
+  grid-area: foto;
+}
