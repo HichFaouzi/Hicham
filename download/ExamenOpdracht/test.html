@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .centeredDiv {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    
+    #products-grid {display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "basic premium";
+    grid-gap: 90px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="centeredDiv">
+   <div id="products-grid">
+          <div id="basic">
+          <ul>
+          <li class="titel"><h1>Basic</h1></li>
+          <li class="selected"> <span>250</span> Photos </li>
+          <li class="selected"> <span>10</span> Features </li>
+          <li class="selected"> <span>No</span> Ads </li>
+          <li class="selected"> <span>Office</span> hours Support </li>
+          <li class="selected"> $25 </li>
+          <li id="knop1"> <button> <i class="fa fa-download" aria-hidden="true"></i> Download </li></button>
+        </ul>
+        </div>
+        <div id="premium">
+          <ul>
+           <li class="titel2"><h1>Premium</h1></li>
+          <li class="selected"> <span>1000</span> Photos </li>
+          <li class="selected"> <span>50</span> Features </li>
+          <li class="selected"> <span>No</span> Ads </li>
+          <li class="selected"> <span>Endless</span> Support </li>
+          <li class="selected"> $99 </li>
+            <li id="knop2"> <button> <i class="fa fa-download" aria-hidden="true"></i> Download </li></button>   
+        </ul>
+        </div>
+        </div>
+  </div>
+</body>
+</html>

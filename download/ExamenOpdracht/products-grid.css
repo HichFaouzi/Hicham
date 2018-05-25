@@ -1,0 +1,14 @@
+#products-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "basic premium";
+  grid-gap: 90px;
+}
+
+#basic {
+  grid-area: basic;
+}
+
+#premium {
+  grid-area: premium;
+}

@@ -25,5 +25,6 @@
 
 #menu>ul>li>a:hover {
   background-color: darkgray;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 33px;
 }

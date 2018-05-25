@@ -1,0 +1,58 @@
+#icon-grid {
+  display: grid;
+  grid-gap: 80px 150px;
+  margin-left: 75px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-areas: "bliksem hartje camera batterij"
+                        "diamand wolk wereld opslag"
+                        "gebruiker shield wifi foto";
+}
+
+#bolt {
+  grid-area: bliksem;
+}
+
+#heart {
+  grid-area: hartje;
+}
+
+#camera {
+  grid-area: camera;
+}
+
+#battery {
+  grid-area: batterij;
+}
+
+#diamond {
+  grid-area: diamand;
+}
+
+#cloud {
+  grid-area: wolk;
+}
+
+#globe {
+  grid-area: wereld;
+}
+
+#hd {
+  grid-area: opslag;
+}
+
+#user {
+  grid-area: gebruiker;
+}
+
+#shield {
+  grid-area: shield;
+}
+
+#wifi {
+  grid-area: wifi;
+}
+
+#picture {
+  grid-area: foto;
+}

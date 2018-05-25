@@ -1,13 +1,40 @@
 #resolutie {
   display: grid;
+  margin-bottom: 0;
   grid-template-columns: auto auto;
   grid-template-areas: "foto tekst";
 }
 
 #resolutie-tekst {
   grid-area: tekst;
+  margin-left: 100px;
 }
 
 #resolutie-img {
   grid-area: foto;
+  padding-left: 30px;
 }
+
+#resolutie{
+  background-color: #f1f1f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#resolutie-img>img {
+  border-radius: 15px;
+}
+
+#resolutie-tekst>h1 {
+  text-align: left;
+  font-size: 60px;
+  
+}
+#resolutie-tekst>h2 {
+  text-align: left;
+  font-size: 60px;
+  color: #f44336;
+  
+}
+
+

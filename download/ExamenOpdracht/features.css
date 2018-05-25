@@ -1,0 +1,96 @@
+#features>h1 {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  font-size: 70px;
+}
+
+#features>p {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#features>ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+#features {
+  background-color: #616161;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#icon-grid>div>p {
+  color: white;
+}
+
+.fa-bolt {
+  color: #ff9800;
+}
+
+.fa-heart{
+  color: #f44336;
+}
+
+.fa-camera {
+  color: #d2be0e;
+}
+
+.fa-battery-full{
+  color: #4CAF50;
+}
+
+.fa-cloud {
+  color: #2196F3;
+}
+
+.fa-globe {
+  color: #ffc107;
+}
+
+.fa-diamond {
+  color: white;
+}
+
+.fa-hdd-o {
+  color: #00bcd4;
+}
+
+.fa-user {
+  color: #fdf5e6;
+}
+
+.fa-shield {
+  color: #ff9800;
+}
+
+.fa-wifi {
+  color: #757575;
+}
+
+.fa-picture-o {
+  color: #e91e63;
+}
+
+.centeredDiv2 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+

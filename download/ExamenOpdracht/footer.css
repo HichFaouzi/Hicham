@@ -1,0 +1,9 @@
+#footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+#footer>i {
+  font-size: 20px;
+}
